@@ -17,4 +17,4 @@ spec:
       targetPort: 80
 
   # Determines how the Service is exposed. ClusterIP is the default.
-  type: ClusterIP 
+  type: LoadBalancer 
